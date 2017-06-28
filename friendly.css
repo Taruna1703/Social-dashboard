@@ -1,0 +1,155 @@
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+html,body {
+	height: 100%;
+	width: 100%;
+	font-family: sans-serif;
+	
+}
+
+  header {
+  background-color: #4267b2;
+  height: 30px;
+}
+footer {
+
+}
+#wrapper {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+#main,
+#menu,
+#sidebar {
+  height: 620px;
+  padding-top:5px;
+}
+#sidebar{height:auto;}
+
+#main,
+#menu,
+#sidebar {
+  background-color: #e9ebee;
+  
+}
+
+
+
+#header {
+    background-color: #4267b2;
+    color: white;
+}
+
+.white-text {
+  color: white !important;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fcf8e3;
+}
+	.list-heading {
+    padding: 20px 15px 0 15px;
+}
+.panel-body .glyphicon {
+    margin-left: 10px;
+    margin-right: 4px;
+}
+.text-post {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.image-post {
+    margin-bottom: 15px;
+}
+#main {
+    overflow: auto;
+	
+}
+#main::-webkit-scrollbar {
+    display: none;
+}
+a.list-links{
+	color:black;
+}
+.nav>li>a>img {
+    max-width: 700px;
+    height: 30px;
+}
+img {
+    vertical-align: middle;
+    height: 20px;
+}
+.comment {
+    margin: 0;
+}
+
+.side-img{
+	height:20px !important;
+	display:inline-block ! important;
+}
+#profile{
+	display:inline ! important;
+	height:20px;
+}
+
+.navbar-collapse.collapse {
+        display: imline-block!important;
+    }	
+}
+.how-feeling{
+	display:inline !important;
+	font-size:18px !important;
+	padding:5px !important;
+	color:black;
+}
+.like-badge{
+	background:rgba(168, 174, 183, 0.41);
+	border:none;
+	border-radius:50px;
+	padding:0px 10px 0px 10px;
+	display:inline-block;
+	a{font-size:15px !important;}
+	
+}
+sup{
+	background:red;
+	border-radius:50px;
+	padding:2px;
+}
+#sidebar{background:white !important;}
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    color: gray;
+}
+#space
+{
+	height:20px;
+	background:#e9ebee;
+}
+ .panels-side{
+	 background:
+ }
+ .suggested-page{
+	 height:160px;
+	 width:250px;
+	 img{padding:0px;}
+ }
+ .text-navbar-collapsed{
+display:none;	
+}
+@media screen and (max-width: 700px) {
+    .text-navbar-collapsed {
+        display:inline-block;
+    }
+	.short-drop-menu>li>a {
+    color: white !important;	
+	}
+}
+.sp{padding:0px !important;}
