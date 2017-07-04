@@ -8,13 +8,14 @@ html,body {
 	height: 100%;
 	width: 100%;
 	font-family: sans-serif;
-	
+
 }
 
   header {
   background-color: #4267b2;
   height: 30px;
 }
+
 footer {
 
 }
@@ -35,7 +36,7 @@ footer {
 #menu,
 #sidebar {
   background-color: #e9ebee;
-  
+
 }
 
 
@@ -67,7 +68,7 @@ footer {
 }
 #main {
     overflow: auto;
-	
+
 }
 #main::-webkit-scrollbar {
     display: none;
@@ -98,7 +99,7 @@ img {
 
 .navbar-collapse.collapse {
         display: imline-block!important;
-    }	
+    }
 }
 .how-feeling{
 	display:inline !important;
@@ -113,7 +114,7 @@ img {
 	padding:0px 10px 0px 10px;
 	display:inline-block;
 	a{font-size:15px !important;}
-	
+
 }
 sup{
 	background:red;
@@ -142,14 +143,32 @@ sup{
 	 img{padding:0px;}
  }
  .text-navbar-collapsed{
-display:none;	
+display:none;
 }
 @media screen and (max-width: 700px) {
     .text-navbar-collapsed {
         display:inline-block;
     }
 	.short-drop-menu>li>a {
-    color: white !important;	
+    color: white !important;
 	}
 }
 .sp{padding:0px !important;}
+
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    margin-left: -10px;
+}
+
+@media (min-width: 768px){
+
+.navbar-form .form-control {
+    display: inline-block;
+
+    width: 400px !important;
+    vertical-align: middle;
+}
+}
