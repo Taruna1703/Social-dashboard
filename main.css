@@ -87,6 +87,9 @@ img {
 .comment {
     margin: 0;
 }
+span{
+    margin:3px;
+}
 
 .side-img{
 	height:20px !important;
